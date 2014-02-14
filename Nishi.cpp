@@ -252,10 +252,10 @@ bool CNishi::NormalLaser(int limit)
 			if(num>=7)
 				break;
 		}
-		for(int i=0;i<num;++i)
+		/*for(int i=0;i<num;++i)
 		{
 			new CMyHomingLaser(enemy[i],1,X,Y,9.0f,0.01f,180.0f*i/num,10.0f,100,0xffffffff);
-		}
+		}*/
 
 		if(laser_num<1)
 		{
